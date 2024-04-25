@@ -22,7 +22,7 @@ ul, nav {
     list-style: none;
 }
 .container {
-    max-width: 1280px;
+    max-width: 100vw;
     margin: 0 auto;
 }
 
@@ -163,10 +163,11 @@ header nav ul li a {
 
 
 .hero-text{
-    background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%),url("../pictures/TuCine_unplash.png");
+    background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%), url("../assets/cinefriend_background.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 751px; 
+    height: 751px;
+    padding: 24px;
 }
 
 .hero-text h1 {
@@ -183,9 +184,9 @@ header nav ul li a {
 }
 .btn-hero{
     background-color: #004aad;
-   text-decoration: none;
+    text-decoration: none;
     border-radius: 5px;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     padding-left: 30px;
     padding-right: 84px;
@@ -216,6 +217,7 @@ header nav ul li a {
 @media (max-width: 900px) {
     .hero-text {
         padding: 0 30px;
+        padding: 16px;
     }
 
     .hero-text h1 {
@@ -233,6 +235,7 @@ header nav ul li a {
         bottom: 0;
         margin: 0 auto;
         background-color: rgba(255, 255, 255, 0.1);
+        padding: 16px;
     }
 
     .hero-image {
@@ -262,7 +265,7 @@ header nav ul li a {
 
 /*section form*/
 .form{
-    background: url("../pictures/form-autocinema\ 1\ \(1\).png");
+    background: url("../assets/form-autocinema.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -596,7 +599,7 @@ header nav ul li a {
 }
 .btn {
     background-color: var(--primary-color);
-    color: #212529;
+    color: #FFFFFF;
     display: flex;
     width: fit-content;
     border-radius: 5px;
@@ -925,7 +928,7 @@ footer{
 .social-links{
     height: 100%;
     width: 30px;
-    background-image: url("../pictures/facebook.png");
+    background-image: url("../assets/icons8-facebook-920.png");
     background-size: 70%;
     background-position: center;
     margin-right: 1rem;
@@ -935,10 +938,10 @@ footer{
     opacity: 0.7;
 }
 footer .social-links:nth-last-of-type(2){
-    background-image: url("../pictures/linkedin.png");
+    background-image: url("../assets/icons8-linkedin-920.png");
 }
 footer .social-links:nth-last-of-type(3){
-    background-image: url("../pictures/github.png");
+    background-image: url("../assets/icons8-github-920.png");
 }
 
 @media (max-width: 768px){
